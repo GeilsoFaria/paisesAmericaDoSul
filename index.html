@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países da América do Sul</title>
+
+    <style>
+        .container {
+            width: 100%;/*Se deixar em 100vw cria rolagem lateral*/
+            height: 100vh;
+            background-color: lightblue;
+            border-radius: 10px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.509);
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center; 
+            gap: 5px 5px;
+        }
+        .paises {
+            width: 150px;
+            height: 100px;
+            background: aqua no-repeat;
+            background-size: cover;
+            order: 1; 
+        }
+        h1 {
+            /* align-self: flex-start; */
+            text-align: center;
+            /* flex-basis: 400px; */
+        }
+        p {
+            /* align-self: flex-end; */
+            text-align: center;
+            /* flex-basis: 400px; */
+            /* order: 3; */
+        }
+        #argentina { 
+            background-image: url("imagens/argentina.png");  
+        }
+        #bolivia {
+            background-image: url("imagens/bolivia.png");
+        }
+        #brasil {
+            background-image: url("imagens/brasil.png");
+            order: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Países da América do Sul</h1>  <!--Era pra ser um header -->
+    <main class="container">
+        
+        <div class="paises" id="argentina">Argentina</div>
+        <div class="paises" id="bolivia">Bolívia</div>
+        <div class="paises" id="brasil">Brasil</div>
+        <div class="paises">Chile</div>
+        <div class="paises">Colômbia</div>
+        <div class="paises">Equador</div>
+        <div class="paises">Guiana</div>
+        <div class="paises">Guiana Francesa</div>
+        <div class="paises">Paraguai</div>
+        <div class="paises">Peru</div>
+        <div class="paises">Suriname</div>
+        <div class="paises">Uruguai</div>
+        <div class="paises">Venezuela</div>
+       
+    </main>
+   <!-- <p>Desenvolvido por Geilso Faria</p>  Responsivo ta quebrando -->
+    
+</body>
+</html>
