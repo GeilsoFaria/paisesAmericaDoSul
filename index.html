@@ -1,73 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Países da América do Sul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 
-    <style>
-        .container {
-            width: 100%;/*Se deixar em 100vw cria rolagem lateral*/
-            height: 100vh;
-            background-color: lightblue;
-            border-radius: 10px;
-            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.509);
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            align-items: center; 
-            gap: 5px 5px;
-        }
-        .paises {
-            width: 150px;
-            height: 100px;
-            background: aqua no-repeat;
-            background-size: cover;
-            order: 1; 
-        }
-        h1 {
-            /* align-self: flex-start; */
-            text-align: center;
-            /* flex-basis: 400px; */
-        }
-        p {
-            /* align-self: flex-end; */
-            text-align: center;
-            /* flex-basis: 400px; */
-            /* order: 3; */
-        }
-        #argentina { 
-            background-image: url("imagens/argentina.png");  
-        }
-        #bolivia {
-            background-image: url("imagens/bolivia.png");
-        }
-        #brasil {
-            background-image: url("imagens/brasil.png");
-            order: 0;
-        }
-    </style>
 </head>
+
 <body>
-    <h1>Países da América do Sul</h1>  <!--Era pra ser um header -->
+    <header>
+        <h1>Países da América do Sul</h1>
+    </header>
     <main class="container">
-        
-        <div class="paises" id="argentina">Argentina</div>
-        <div class="paises" id="bolivia">Bolívia</div>
-        <div class="paises" id="brasil">Brasil</div>
-        <div class="paises">Chile</div>
-        <div class="paises">Colômbia</div>
-        <div class="paises">Equador</div>
-        <div class="paises">Guiana</div>
-        <div class="paises">Guiana Francesa</div>
-        <div class="paises">Paraguai</div>
-        <div class="paises">Peru</div>
-        <div class="paises">Suriname</div>
-        <div class="paises">Uruguai</div>
-        <div class="paises">Venezuela</div>
-       
+
+        <div class="paises" id="argentina">
+            <div class="comentario"> País: Argentina <br>
+                Capital: Buenos Aires<br>
+                Área:2.780.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="bolivia">
+            <div class="comentario">País: Bolívia <br>
+                Capitais: La Paz<br>
+                Área: 1.099.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="brasil">
+            <div class="comentario">
+                País: Brasil <br>
+                Capital: Brasília <br>
+                Área: 8.510.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="chile">
+            <div class="comentario">
+                País: Chile <br>
+                Capital: Santiago <br>
+                Área: 756.626 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="colombia">
+            <div class="comentario">
+                País: Colômbia <br> 
+                Capital: Bogotá <br>
+                Área: 1.142.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="equador">
+            <div class="comentario">
+                País: Equador <br> 
+                Capital: Quito <br>
+                Área: 256.370 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="guiana">
+            <div class="comentario">
+                País: Guina <br> 
+                Capital: Georgetown <br>
+                Área: 214.969 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="guianaFrancesa">
+            <div class="comentario">
+                País: Guina Francesa <br>
+                 Capital: Caiena <br>
+                 Área: 84.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="paraguai">
+            <div class="comentario">
+                País: Paraguai<br> 
+                Capital: Assunção <br>
+                Área: 406.752 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="peru">
+            <div class="comentario">
+                País: Peru<br> 
+                Capital: Lima <br>
+                Área: 1.285.000 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="suriname">
+            <div class="comentario">
+                País: Suriname <br>
+                 Capital: Paramaribo <br>
+                 Área: 163.820 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="uruguai">
+            <div class="comentario">
+                País: Uruguai <br> 
+                Capital: Montevidéu <br>
+                Área: 176.215 km <sup>2</sup>
+            </div>
+        </div>
+        <div class="paises" id="venezuela">
+            <div class="comentario">
+                País: Venezuela <br>
+                 Capital: Caracas <br>
+                 Área: 916.445 km <sup>2</sup>
+            </div>
+        </div>
+
     </main>
-   <!-- <p>Desenvolvido por Geilso Faria</p>  Responsivo ta quebrando -->
-    
+    <!-- <p>Desenvolvido por Geilso Faria</p>  Responsivo ta quebrando -->
+
 </body>
+
 </html>
