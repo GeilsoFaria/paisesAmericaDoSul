@@ -1,8 +1,8 @@
-# Projeto Paises da América do Sul
-<p>Status: Finalizado  </p>
+# Projeto Países da América do Sul
+<p>Status: ✅ Finalizado ✅  </p>
 
 ## Link para o projeto
- <a href="#" target=_blank>Clique aqui</a>
+ <a href="https://geilsofaria.github.io/paisesAmericaDoSul/" target=_blank>Clique aqui</a>
 
 ![screencapture-file-C-Users-geils-OneDrive-Documentos-estudos-paisesAmericaDoSul-index-html-2023-11-14-15_07_08](https://github.com/GeilsoFaria/paisesAmericaDoSul/assets/109383516/73fc17cd-9ae8-4562-a820-ba5ff5c79468)
 
