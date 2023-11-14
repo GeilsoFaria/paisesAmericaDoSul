@@ -16,7 +16,6 @@ header {
     background-color: lightblue;
     margin-bottom: 25px;
     border-radius: 10px;
-    /* box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.509); */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -29,9 +28,11 @@ header {
     width: 150px;
     height: 100px;
     background: aqua center center no-repeat;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.509); 
     background-size: cover;
     order: 1;
     text-align: center;
+    border-radius: 5px;
 }
 
 h1 {
@@ -44,6 +45,7 @@ p {
 
 .comentario {
     display: none;
+    font-size: 0.9em;
 
 }
 
@@ -102,11 +104,24 @@ p {
     background-image: url("imagens/venezuela.png");
 }
 
-.paises:hover {
+#brasil:hover,
+#argentina:hover,
+#bolivia:hover,
+#colombia:hover,
+#chile:hover,
+#equador:hover,
+#guiana:hover,
+#guianaFrancesa:hover,
+#paraguai:hover,
+#peru:hover,
+#suriname:hover,
+#uruguai:hover,
+#venezuela:hover {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(175, 175, 175, 1) 100%);
+
     .comentario {
         margin: 5px;
         display: block;
-        background-color: lightblue;
         border-radius: 5px;
     }
 }
