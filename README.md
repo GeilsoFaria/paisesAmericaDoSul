@@ -9,7 +9,7 @@
  </ul>
  
 ## Link para o projeto
- <a href=" target="_blank">Clique aqui</a>
+ <a href="#" target=_blank>Clique aqui</a>
 
 ## Tecnologias Usadas
 * HTML5
